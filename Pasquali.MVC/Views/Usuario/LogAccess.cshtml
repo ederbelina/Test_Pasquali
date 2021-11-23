@@ -1,0 +1,34 @@
+﻿@model List<Pasquali.Application.ViewModels.LogAcessoViewModel>
+@{
+    ViewBag.Title = "Histórico de acessos";
+}
+
+<div class="container">
+    <div class="jumbotron">
+        <div class="container">
+            <h2>@ViewBag.Title</h2>
+
+            <table>
+                <tr>
+                    <th>Data / Hora Acesso</th>
+                    <th>Usuário</th>
+                    <th>Endereço IP</th>
+                </tr>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td style="width: 368px;">
+                            @Html.DisplayFor(modelItem => item.DataHoraAcesso)
+                        </td>
+                        <td style="width: 368px;">
+                            @Html.DisplayFor(modelItem => item.UsuarioNome)
+                        </td>
+                        <td style="width: 368px;">
+                            @Html.DisplayFor(modelItem => item.EnderecoIp)
+                        </td>
+                    </tr>
+                }
+            </table>
+        </div>
+    </div>
+</div>

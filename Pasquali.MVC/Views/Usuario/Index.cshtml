@@ -1,0 +1,39 @@
+﻿@model List<Pasquali.Application.ViewModels.UsuarioViewModel>
+@{
+    ViewBag.Title = "Lista de usuários";
+}
+
+<div class="container">
+    <div class="jumbotron">
+        <div class="container">
+            <h2>@ViewBag.Title</h2>
+
+            <table>
+                <tr>
+                    <th>Nome</th>
+                    <th>Login</th>
+                    <th>Admin</th>
+                    <th>Ação</th>
+                </tr>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td style="width: 150px;">
+                            @Html.DisplayFor(modelItem => item.Nome)
+                        </td>
+                        <td style="width: 150px;">
+                            @Html.DisplayFor(modelItem => item.Login)
+                        </td>
+                        <td style="width: 150px;">
+                            @Html.DisplayFor(modelItem => item.IsAdmin)
+                        </td>
+                        <td style="width: 200px;">
+                            @Html.ActionLink("Atualizar", "UpdateUser", "Usuario", new { usuarioId = item.UsuarioId }, null)
+                            @Html.ActionLink("Deletar", "DeleteUser", "Usuario", new { usuarioId = item.UsuarioId }, null)
+                        </td>
+                    </tr>
+                }
+            </table>
+        </div>
+    </div>
+</div>

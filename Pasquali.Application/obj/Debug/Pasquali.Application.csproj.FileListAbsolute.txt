@@ -1,0 +1,11 @@
+C:\Users\edera\source\repos\Pasquali\Pasquali.Application\bin\Debug\Pasquali.Application.dll
+C:\Users\edera\source\repos\Pasquali\Pasquali.Application\bin\Debug\Pasquali.Application.pdb
+C:\Users\edera\source\repos\Pasquali\Pasquali.Application\bin\Debug\Pasquali.Domain.dll
+C:\Users\edera\source\repos\Pasquali\Pasquali.Application\bin\Debug\System.ComponentModel.Annotations.dll
+C:\Users\edera\source\repos\Pasquali\Pasquali.Application\bin\Debug\Pasquali.Core.dll
+C:\Users\edera\source\repos\Pasquali\Pasquali.Application\bin\Debug\Pasquali.Domain.pdb
+C:\Users\edera\source\repos\Pasquali\Pasquali.Application\bin\Debug\Pasquali.Core.pdb
+C:\Users\edera\source\repos\Pasquali\Pasquali.Application\obj\Debug\Pasquali.Application.csprojAssemblyReference.cache
+C:\Users\edera\source\repos\Pasquali\Pasquali.Application\obj\Debug\Pasquali.Application.csproj.CopyComplete
+C:\Users\edera\source\repos\Pasquali\Pasquali.Application\obj\Debug\Pasquali.Application.dll
+C:\Users\edera\source\repos\Pasquali\Pasquali.Application\obj\Debug\Pasquali.Application.pdb

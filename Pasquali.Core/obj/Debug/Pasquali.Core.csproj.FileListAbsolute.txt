@@ -1,0 +1,5 @@
+C:\Users\edera\source\repos\Pasquali\Pasquali.Core\bin\Debug\Pasquali.Core.dll
+C:\Users\edera\source\repos\Pasquali\Pasquali.Core\bin\Debug\Pasquali.Core.pdb
+C:\Users\edera\source\repos\Pasquali\Pasquali.Core\obj\Debug\Pasquali.Core.csprojAssemblyReference.cache
+C:\Users\edera\source\repos\Pasquali\Pasquali.Core\obj\Debug\Pasquali.Core.dll
+C:\Users\edera\source\repos\Pasquali\Pasquali.Core\obj\Debug\Pasquali.Core.pdb

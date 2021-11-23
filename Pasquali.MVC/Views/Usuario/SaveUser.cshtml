@@ -1,0 +1,55 @@
+﻿@model Pasquali.Application.ViewModels.UsuarioViewModel
+@{
+    ViewBag.Title = "Cadastro de usuário";
+}
+
+<div class="container">
+    <div class="jumbotron">
+        <div class="container">
+            <h2>@ViewBag.Title</h2>
+            @using (Html.BeginForm("SaveUser", "Usuario", FormMethod.Post))
+            {
+                @Html.AntiForgeryToken()
+                @Html.ValidationSummary(true)
+
+                <fieldset>
+                    <div class="editor-label">
+                        @Html.LabelFor(model => model.Nome)
+                    </div>
+                    <div class="editor-label">
+                        @Html.EditorFor(model => model.Nome)
+                        @Html.ValidationMessageFor(model => model.Nome)
+                    </div>
+
+                    <div class="editor-label">
+                        @Html.LabelFor(model => model.Login)
+                    </div>
+                    <div class="editor-label">
+                        @Html.EditorFor(model => model.Login)
+                        @Html.ValidationMessageFor(model => model.Login)
+                    </div>
+
+                    <div class="editor-label">
+                        @Html.LabelFor(model => model.Senha)
+                    </div>
+                    <div class="editor-label">
+                        @Html.EditorFor(model => model.Senha)
+                        @Html.ValidationMessageFor(model => model.Senha)
+                    </div>
+
+                    <div class="editor-label">
+                        @Html.LabelFor(model => model.IsAdmin)
+                    </div>
+                    <div class="editor-label">
+                        @Html.EditorFor(model => model.IsAdmin)
+                    </div>
+                    <br />
+                    <br />
+                    <p>
+                        <input class="btn btn-lg btn-primary" type="submit" value="Cadastrar" />
+                    </p>
+                </fieldset>
+            }
+        </div>
+    </div>
+</div>
